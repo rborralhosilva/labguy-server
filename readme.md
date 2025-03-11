@@ -58,7 +58,18 @@
    7. `pm2 start bin/www`
    8. `pm2 save`
    9. Application should be running in the background now.
-
+  
+2. VPS
+   1. Connect to the server via SSH.
+   2. Navigate to the root directory using `cd ~`
+   3. Install nodejs via nvm.
+   4. Install MariaDB and configure database and user for the REST API.
+   5. Clone `vps` branch.
+   6. Create `.env` file
+   7. `npm i`
+   8. Setup pm2
+   9. Setup ngnix
+       
 ## Auto-updates
 :warning: **CAUTION** it will synchronize your commit history.
 
